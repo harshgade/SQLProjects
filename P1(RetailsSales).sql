@@ -133,7 +133,7 @@ select
    extract(month from sale_date) as monthsale,
    avg(total_sale) as avgSaleByMonth  
 from retails_sales
-group by extract(month from sale_date) order by monthsale asc;
+group by monthsale order by monthsale asc;
 
 
 
