@@ -162,7 +162,7 @@ with hourlysale as (
   from retails_sales
 )
 select shift ,
-    count(*) as total_orders 
+    count(*) as total_orders -- counts every transaction for each Shift
 from hourlysale
 group by shift
 -- GROUP BY shift → This groups all rows by the Shift col COUNT(*) → counts the no of rows (orders) in each shift
