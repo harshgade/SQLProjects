@@ -1,7 +1,7 @@
 <h1>Retail Sales Analysis SQL Project</h1>
 
 <h3>Project Overview</h3>
----
+___
 
 
 
