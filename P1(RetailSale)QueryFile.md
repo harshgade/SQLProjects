@@ -7,8 +7,8 @@
 
 
 
-<h4>Project Title : </h4> Retail Sales Analysis 
-<h4>Datbase : </h4> P1(RetailsSales)dataset.csv
+<h4><b>Project Title :</b> Retail Sales Analysis </h4> 
+<h4><b> Datbase : </b>b> P1(RetailsSales)dataset.csv</h4> 
 
 
 
