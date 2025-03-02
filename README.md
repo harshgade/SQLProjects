@@ -1,2 +1,2 @@
 # SQLProjects
-It includes Dataset &amp; Schema &amp; Query file's of each project 
+It includes Dataset , Schema , Query file's of each project 
