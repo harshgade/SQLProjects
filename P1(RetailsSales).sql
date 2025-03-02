@@ -159,7 +159,7 @@ from totalsalebycustomer
 where totalsalerank <= 5;
 
 
--- Q10) Write a SQL query to create each shift and number of orders Example : Morning < 12 , Afternoon between
+-- Q10) Write a SQL query to create each shift and number of orders per shift Example : Morning < 12 , Afternoon between
 -- 12 & 17 , Evening > 17
 -- here will use CTE  & CASE statement 
 with hourlysale as (
