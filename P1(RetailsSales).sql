@@ -147,6 +147,16 @@ group by customer_id
 order by totalsalebycustomer desc
 limit 5;
 
+-- Using Window Function with CTE (common table expression)
+with totalsalebycustomer as (
+     select customer_id , total_sale , 
+	    row_number() over (order by total_sale desc) as totalsalerank
+     from retailsale
+)
+
+select customer_id , total_sale 
+from totalsalebycustomer 
+where totalsalerank <= 5;
 
 
 -- Q10) Write a SQL query to create each shift and number of orders Example : Morning < 12 , Afternoon between
