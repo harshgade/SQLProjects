@@ -131,7 +131,7 @@ group by gender , category;
 
 select 
    extract(month from sale_date) as monthsale,
-   round(avg(total_sale),0) as avgSaleByMonth  
+   avg(total_sale) as avgSaleByMonth  
 from retails_sales
 group by monthsale order by monthsale asc;
 
